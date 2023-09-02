@@ -104,6 +104,10 @@ INNER JOIN person ON attenders.person_id = person.id
 INNER JOIN licenses ON person.license_id = licenses.id;
 ```
 
+| id    | name             |
+|-------|------------------|
+| 99716 | Miranda Priestly |
+
 ```sql
 INSERT INTO solution VALUES (1, 'Miranda Priestly');
 SELECT value FROM solution;
